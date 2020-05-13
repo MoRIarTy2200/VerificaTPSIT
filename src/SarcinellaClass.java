@@ -5,6 +5,7 @@
  *
  */
 
+
 public class SarcinellaClass {
 
 	/**
@@ -42,5 +43,8 @@ public class SarcinellaClass {
 		System.out.println(s.cognomeMet(3, 10));
 
 	}
+	
+	
+	
 
 }
