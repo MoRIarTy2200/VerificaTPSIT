@@ -22,16 +22,19 @@ public class SarcinellaClass {
 	 * @return valore
 	 */
 	public float cognomeMet (int b, int e) {
-		int val1=1; 		
-			for (int i=1; i<=b; i++){
+		int val1=b; //val deve essere uguale a b
+		
+			for (int i=1; i<e; i++){ //i deve essere < di e
 				val1 = val1 * b;
 			}
 			return val1;
+			
 		}
 	
 	
 	/**
 	 * @author Manuel Sarcinella
+	 * 
 	 */
 	public static void main(String[] args) {
 		SarcinellaClass s=new SarcinellaClass();
